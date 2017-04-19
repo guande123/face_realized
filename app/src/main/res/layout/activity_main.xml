@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.demo.zgd.mfacerealized.MainActivity">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#33FF0000">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/face_img"
+        android:src="@mipmap/cluo"/>
+    <com.demo.zgd.mfacerealized.FocusFace
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/face_kuang"/>
+</RelativeLayout>
+    <Button
+        android:id="@+id/realized_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="face_realized"/>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="open_gallery"
+    android:id="@+id/open_gallery_btn"/>
+</LinearLayout>
